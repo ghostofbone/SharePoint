@@ -1,0 +1,31 @@
+{
+  "name": "sharepoint-to-excel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test:e2e": "jest --config jest.e2e.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/identity": "^4.5.0",
+    "@pnp/common": "^2.15.0",
+    "@pnp/logging": "^4.6.0",
+    "@pnp/nodejs": "^4.6.0",
+    "@pnp/odata": "^2.15.0",
+    "@pnp/sp": "^4.6.0",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.8.7",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3",
+    "xlsx": "^0.18.5"
+  }
+}
